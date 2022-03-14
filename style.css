@@ -29,13 +29,15 @@ nav img{
     font-size: 20px;
 }
 .about-me{
-    position: fixed;
+    position: absolute;
     display: inline-flex;
+    width: max-content;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .profile-pic{
+    margin-left: 100px;
     width: 280px;
     height: 280px;
     border-radius: 50%;
