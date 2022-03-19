@@ -70,20 +70,72 @@ nav img{
     font-weight: bold;
     color: rgb(204, 204, 204);
 }
-.text{
+.common-text{
     font-family: 'Poppins', sans-serif;
     font-size: x-large;
     color: rgb(204, 204, 204);
 }
-#skills{
+#about-me{
     padding-top: 25%;
     padding-left: 10%;
     padding-right: 10%;
+}
+#skills{
+    padding-top: 8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%;
 }
 #skills-content{
     display: flex;
     padding-left: 10%;
 }
-.skills-content{
-    padding-left: 5%;
+.tab-space{
+    padding-left: 6%;
+}
+#footer{
+    display: inline-flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(  60, 60, 60);
+}
+#socmed-links{
+    margin-left: auto;
+    margin-right: 30px;
+}
+#socmed-links p{
+    display: inline-block;
+    margin-right: 30px;
+}
+#socmed-links a{
+    text-decoration: none;
+}
+#socmed-links a img{
+    width: 40px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+#socmed-links a img:last-child{
+    display: none;
+}
+#socmed-links a:hover img:last-child{
+    display: inline-block;
+}
+#socmed-links a:hover img:first-child{
+    display: none;
+}
+#contact{
+    padding-left: 30px;
+}
+#email img{
+    width: 30px;
+}
+#email a{
+    text-decoration: none;
+}
+#email a:hover{
+    color: rgb(204, 204, 204);
 }
