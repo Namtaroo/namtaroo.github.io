@@ -108,6 +108,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+#about-me p{
+    text-indent: 70px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+#about-me p:last-child{
+    margin-bottom: 0px;
+}
 #skills{
     margin-left: auto;
     margin-right: auto;
