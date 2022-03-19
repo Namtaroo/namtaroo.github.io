@@ -3,7 +3,8 @@
     padding: 0;
 }
 .content{
-    width: 1300px;
+    margin-bottom: 150px;
+    width: 1000px;
 }
 #navbar{
     position: fixed;
@@ -46,6 +47,7 @@
     color: rgb(215, 181, 108);
 }
 #intro{
+    width: 1300px;
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
@@ -55,6 +57,11 @@
 }
 #intro img{
     float: right;
+}
+.intro-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    color: rgb(204, 204, 204);
 }
 .profile-pic{
     width: 280px;
@@ -73,13 +80,27 @@
 }
 .header-bold{
     font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(204, 204, 204);
+}
+.section-header-bold{
+    font-family: 'Poppins', sans-serif;
     font-size: xx-large;
     font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(204, 204, 204);
+}
+.medium-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
     color: rgb(204, 204, 204);
 }
 .common-text{
     font-family: 'Poppins', sans-serif;
-    font-size: x-large;
+    font-size: large;
     color: rgb(204, 204, 204);
 }
 #about-me{
@@ -88,20 +109,18 @@
     margin-right: auto;
 }
 #skills{
-    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 #skills-content{
     display: flex;
-    padding-left: 10%;
+    justify-content: space-between;
 }
 .tab-space{
     padding-left: 6%;
 }
 #footer{
     display: inline-flex;
-    margin-top: 100px;
     height: 100px;
     width: 100%;
     align-items: center;
