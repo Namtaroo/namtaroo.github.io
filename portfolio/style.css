@@ -75,7 +75,9 @@
     margin-right: auto;
 }
 #space-rocks{
-    margin: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #jam-projects   {
     margin-top: 100px;
@@ -87,19 +89,24 @@
     margin-left: auto;
     margin-right: auto;
 }
-.project-container img{
-    width: 400px;
+.banner{
     display: inline-block;
+    vertical-align: text-top;
+    width: 400px;
 }
 .information{
+    margin-left: 50px;
+    width: 840px;
     display: inline-block;
-    margin-left: 20px;
     vertical-align: top;
 }
 .information img{
     width: 20px;
     margin-left: 10px;
-    vertical-align: middle;
+}
+.description{
+    text-indent: 70px;
+    text-align: justify;
 }
 #footer{
     display: inline-flex;
