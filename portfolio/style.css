@@ -95,6 +95,35 @@
     margin-left: auto;
     margin-right: auto;
 }
+#ue-prototypes .project-container-right{
+    margin-bottom: 70px;
+}
+#ue-prototypes .project-container-left{
+    margin-bottom: 70px;
+}
+#ue-prototypes .project-container-right:last-child{
+    margin-bottom: 0px;
+}
+#ue-prototypes .project-container-left:last-child{
+    margin-bottom: 0px;
+}
+#ue-prototypes .project-container-right .description{
+    margin-right: 50px;
+}
+#ue-prototypes .project-container-left .description{
+    margin-left: 50px;
+}
+#ue-prototypes .project-container-right iframe{
+    float: right;
+}
+#ue-prototypes h1{
+    margin-bottom: 30px;
+}
+#ue-prototypes .description{
+    display: inline-block;
+    vertical-align: top;
+    width: 680px;
+}
 .banner{
     display: inline-block;
     vertical-align: text-top;
