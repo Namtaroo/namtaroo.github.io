@@ -79,12 +79,18 @@
     margin-left: auto;
     margin-right: auto;
 }
-#jam-projects   {
+#jam-projects{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
-#ue-prototypes   {
+#jam-projects .project-container{
+    margin-bottom: 70px;
+}
+#jam-projects .project-container:last-child{
+    margin-bottom: 0px;
+}
+#ue-prototypes{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
