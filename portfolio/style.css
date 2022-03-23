@@ -97,13 +97,12 @@
     margin-bottom: 0px;
 }
 #ue-prototypes .project-container-right .description{
+    float: left;
+    min-height: 315px;
     margin-right: 50px;
 }
 #ue-prototypes .project-container-left .description{
     margin-left: 50px;
-}
-#ue-prototypes .project-container-right iframe{
-    float: right;
 }
 #ue-prototypes h1{
     margin-bottom: 30px;
@@ -111,7 +110,7 @@
 #ue-prototypes .description{
     display: inline-block;
     vertical-align: top;
-    width: 680px;
+        width: 680px;
 }
 #jam-projects{
     margin-top: 100px;
@@ -142,6 +141,12 @@
 .description{
     text-indent: 70px;
     text-align: justify;
+}
+.description p{
+    margin-bottom: 30px;
+}
+.description p:last-child{
+    margin-bottom: 0px;
 }
 #footer{
     display: inline-flex;
