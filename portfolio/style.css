@@ -74,6 +74,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+#featured-projects .project-container-right{
+    margin-bottom: 130px;
+}
+#featured-projects .project-container-left{
+    margin-bottom: 150px;
+}
+#featured-projects .project-container-right .description{
+    float: left;
+}
 #space-rocks{
     display: inline-block;
     margin-left: auto;
@@ -110,7 +119,7 @@
 #ue-prototypes .description{
     display: inline-block;
     vertical-align: top;
-        width: 680px;
+    width: 680px;
 }
 #jam-projects{
     margin-top: 100px;
